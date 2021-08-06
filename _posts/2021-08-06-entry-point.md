@@ -2,7 +2,6 @@
 layout: post
 title: Entry Point of copyrat90::devlog
 tags: [Blog]
-color: brown
 author: copyrat90
 last_modified_at: 2021-08-06T18:47:00+09:00
 ---
