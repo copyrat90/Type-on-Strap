@@ -95,12 +95,12 @@ html, html[data-theme="light"] {
   --base0f: #ff5370; // Deprecated, Opening/Closing Embedded Language Tags e.g.
 }
 
-// Seti UI Theme
+// Seti UI Theme, BUT --base03 is brighter
 html[data-theme="dark"] {
   --base00: #151718; // Default Background
   --base01: #282a2b; // Lighter Background (Used for status bars, line number and folding marks)
   --base02: #3B758C; // Selection Background
-  --base03: #41535B; // Comments, Invisible, Line Highlighting
+  --base03: #5d6e75; // Comments, Invisible, Line Highlighting
   --base04: #43a5d5; // Dark Foreground (Used for status bars)
   --base05: #d6d6d6; // Default Foreground, Caret, Delimiters, Operators
   --base06: #eeeeee; // Light Foreground (Not often used)
