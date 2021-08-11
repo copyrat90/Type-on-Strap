@@ -9,7 +9,7 @@ last_modified_at: 2021-08-07T17:53:00+09:00
 
 [웃기는 Reddit 발 C++ Meme](https://www.reddit.com/r/ProgrammerHumor/comments/kvz1y2/then_everything_changed_when_the_nation_attacked/) 을 봤다.
 
-![](/assets/img/posts/cpp-verbose-meme-but-sfinae-invalid/meme.png)
+![](/assets/img/posts/2021-08-07-cpp-verbose-meme-but-sfinae-invalid/meme.png)
 
 C 에 ++ 붙이면 얼마나 장황해지는지를 압축해서 보여준다.
 
