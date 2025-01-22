@@ -7,18 +7,14 @@ tags: [Page]
 
 ![](/assets/img/copyrat90_presents.gif)
 
-Hi, I'm copyrat90, welcome to my small blog!
-
+Hi, I'm copyrat90, and welcome to my small blog!\
 copyrat90 의 작은 블로그에 어서오세요!
 
-Here I post some articles about what I learned while developing miscellaneous things.
+Here I mostly post things I learned while doing gamedev.\
+여기엔 주로 게임 개발하면서 배운 것에 관해 쓰고 있어요.
 
-여기다가 이것저것 개발하면서 배운 것들을 쓰고 있습니다.
+I mostly post the articles in Korean(한국어), but you can comment in English.\
+블로그 글은 대부분 한국어로 돼 있지만, 영어로 댓글을 다셔도 돼요.
 
-I'm recently working on developing video games with C++ and [SDL2](https://www.libsdl.org/), [Butano](https://github.com/GValiente/butano), ... etc.
-
-요즘은 C++ 하고 [SDL2](https://www.libsdl.org/), [Butano](https://github.com/GValiente/butano) 등으로 비디오 게임을 개발하고 있습니다.
-
-Most of the articles are written in Korean(한국어).
-
-블로그 글은 대부분 한국어로 돼 있어요.
+I've been lurking some time for now, but I'll post more things soon. Stay tuned!\
+꽤 오랫동안 잠수 탔었는데, 다시 글을 써 보려고 해요. 기다려주세요!
