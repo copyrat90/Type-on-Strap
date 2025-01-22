@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 전역 상수를 헤더에 넣어보자!
-tags: [C++, C++17, ODR, inline, constexpr]
+tags: [C++]
 author: copyrat90
 last_modified_at: 2021-08-29T00:02:00+09:00
 ---

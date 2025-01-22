@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meme 으로 알아보는 C++20 Constraints and Concepts
-tags: [Meme, C++, C++20, Template Metaprogramming, SFINAE, Constraints and Concepts]
+tags: [C++]
 author: copyrat90
 last_modified_at: 2021-08-07T17:53:00+09:00
 ---
