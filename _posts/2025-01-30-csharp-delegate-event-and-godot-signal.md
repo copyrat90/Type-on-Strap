@@ -94,7 +94,7 @@ class Program
 
 그리고 1개의 delegate 변수에 `+=` 연산자로 여러 개의 메서드를 연결하는 것도 가능하다.\
 그러면 호출 시에 추가된 순서대로 전부 호출된다.\
-C++ 이었으면 `std::vector<std::function>` 식으로 썼어야 했을 터.
+C++ 이었으면 `intrusive_list<std::function>` 식으로 썼어야 했을 터.
 ```cs
 class Program
 {
