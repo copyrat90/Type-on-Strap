@@ -3,7 +3,7 @@ layout: post
 title: (Godot) 직접 만든 Scene이 에디터 warning 표시하게 하기
 tags: [Godot]
 author: copyrat90
-last_modified_at: 2025-01-30T10:32:00+09:00
+last_modified_at: 2025-01-30T12:08:00+09:00
 ---
 
 어떤 노드들은 특정 타입의 자식이 없으면 오류 메시지가 뜬다.\
@@ -16,7 +16,7 @@ last_modified_at: 2025-01-30T10:32:00+09:00
 이걸 하려면 우선 C# 스크립트를 Tool script 로 만들어야 한다.
 
 간단한데, 클래스 앞에 `[Tool]` 만 붙이면 된다.\
-그러면 에디터에서도 코드가 돌기 시작한다.
+그러면 [에디터에서도 코드가 돌기 시작한다.](https://docs.godotengine.org/en/stable/tutorials/plugins/running_code_in_the_editor.html)
 
 > **조심하자. 에디터에서 코드가 돈다는 말은, 잘못 짜면 에디터가 튕긴다는 말이다.**\
 > null reference 등 없도록 조심 또 조심.
