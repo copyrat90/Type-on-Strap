@@ -3,7 +3,7 @@ layout: post
 title: C#의 `delegate`와 `event`, 그리고 Godot의 Signal
 tags: [C#, Godot]
 author: copyrat90
-last_modified_at: 2025-01-30T12:01:00+09:00
+last_modified_at: 2025-02-03T16:04:00+09:00
 ---
 
 C#에서 Observer pattern을 구현하는 방법과, Godot에서 그걸 활용해 Signal handling하는 방법.
@@ -201,18 +201,17 @@ public event Action DiedInAMinute;
 [Signal] public delegate void DiedInAMinuteEventHandler();
 ```
 
-그러면 Godot의 빌드스크립트(?)가 알아서 그 위치에 뒤 `EventHandler`를 뗀 event delegate 변수를 생성해 줘,\
+그러면 GodotSharp에 포함된 Source generator가 알아서 그 위치에 뒤 `EventHandler`를 뗀 event delegate 변수를 생성해 줘,\
 외부에서는 그 변수에 handler를 등록할 수 있다.
 ```cs
-// Godot 빌드스크립트(?)가 자동 생성한 이벤트 변수, 직접 작성할 필요 없음
+// GodotSharp source generator가 자동 생성한 이벤트 변수, 직접 작성할 필요 없음
 private global::DiedInAMinuteEventHandler backing_DiedInAMinute;
 public event global::DiedInAMinuteEventHandler @DiedInAMinute {
         add => backing_DiedInAMinute += value;
         remove => backing_DiedInAMinute -= value;
 }
 ```
-(코드 생성이 정확히 어떤 원리인지는 모르겠다.\
-Reflection을 쓸 것으로 추측되긴 하는데, 어떻게 빌드조차 안 했는데 바로 생성되지?)
+(사실 GodotSharp이 [Source generator](https://learn.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/#source-generators)를 써서 코드 생성을 한다는 건 추측이다. 나중에 뜯어보기로...)
 
 ## Signal emission
 
